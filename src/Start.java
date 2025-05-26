@@ -10,7 +10,8 @@ public class Start {
 		System.out.println("でぃびじょん");
 		//MyFrame frame1 = new OvalTest();
 		//MyFrame frame1=new TextTest();
-		MyFrame frame1=new RectAndOval();
+		//MyFrame frame1=new RectAndOval();
+		MyFrame frame1=new RectLoop();
 	}
 
 }
