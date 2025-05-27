@@ -14,7 +14,8 @@ public class Start {
 		//MyFrame frame1=new RectLoop();
 		//MyFrame frame1=new RectIf();
 		//MyFrame frame1=new practice4();
-		MyFrame frame1=new DisplayRectsSlow();
+		//MyFrame frame1=new DisplayRectsSlow();
+		MyFrame frame1=new Animation();
 	}
 
 }
