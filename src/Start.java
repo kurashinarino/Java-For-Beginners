@@ -12,7 +12,8 @@ public class Start {
 		//MyFrame frame1=new TextTest();
 		//MyFrame frame1=new RectAndOval();
 		//MyFrame frame1=new RectLoop();
-		MyFrame frame1=new RectIf();
+		//MyFrame frame1=new RectIf();
+		MyFrame frame1=new practice4();
 	}
 
 }
