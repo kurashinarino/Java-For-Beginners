@@ -17,7 +17,8 @@ public class Start {
 		//MyFrame frame1=new DisplayRectsSlow();
 		//MyFrame frame1=new Animation();
 		//MyFrame frame1=new DisplayFace();
-		MyFrame f=new DisplayFaceObject();
+		//MyFrame f=new DisplayFaceObject();
+		MyFrame f=new DisplayFaceAndTree();
 	}
 
 }
