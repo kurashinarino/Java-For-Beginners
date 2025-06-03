@@ -18,7 +18,8 @@ public class Start {
 		//MyFrame frame1=new Animation();
 		//MyFrame frame1=new DisplayFace();
 		//MyFrame f=new DisplayFaceObject();
-		MyFrame f=new DisplayFaceAndTree();
+		//MyFrame f=new DisplayFaceAndTree();
+		MyFrame f=new DisplayCar();
 	}
 
 }
