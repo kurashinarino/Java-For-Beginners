@@ -19,8 +19,8 @@ public class Start {
 		//MyFrame frame1=new DisplayFace();
 		//MyFrame f=new DisplayFaceObject();
 		//MyFrame f=new DisplayFaceAndTree();
-		//MyFrame f=new DisplayCar();
-		MyFrame f=new DisplayFaceVector();
+		MyFrame f=new DisplayCar();
+		//MyFrame f=new DisplayFaceVector();
 	}
 
 }
