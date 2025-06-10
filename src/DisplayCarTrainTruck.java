@@ -13,7 +13,7 @@ public class DisplayCarTrainTruck extends MyFrame{
 			clear();
 			for(int j=0; j<vehicles.size(); j++) {
 				vehicles.get(j).draw(this);
-				vehicles.get(j).move(this);
+				vehicles.get(j).move();
 			}
 			sleep(0.1);
 		}

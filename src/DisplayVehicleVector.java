@@ -13,12 +13,15 @@ public class DisplayVehicleVector extends MyFrame{
 
 		while(true) {
 			clear();
+			int width =getWidth();
+			int height = getHeight();
 			
-			for (int j=0; j<vehicles.size(); j++) {
-				vehicles.get(j).draw(this);
-				vehicles.get(j).move(this);
+			for (Vehicle v : vehicles) {
+				v.draw(this);
+				v.move();
+				v.resetIfOut(width, height);
 			}
-			sleep(0.03);
+			sleep(0.1);
 		}
 	}
 
